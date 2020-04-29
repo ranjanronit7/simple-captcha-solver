@@ -18,9 +18,11 @@ Clone the repository:
 
 ### Generate Output
 The captcha images can be collected by executing the following command:
+
 ```$ python collect_data.py```
 
 The test results can be checked by running the proposed algorithm on all of the collected data as follows:
+
 ```$ python test.py```
 
 The accuracy achieved should be close to **98%**
