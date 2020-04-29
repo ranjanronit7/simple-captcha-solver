@@ -29,10 +29,6 @@ def create_templates_json(path):
             temp['type'] = 'char'
         temp['imageDataArray'] = template_binary_inverse
 
-        # cv2.imshow('template', template_binary_inverse)
-        # cv2.waitKey(0)
-        # cv2.destroyAllWindows()
-        #
         cv2.imshow('template_binary_inverse', template_binary_inverse)
         cv2.waitKey(0)
         cv2.destroyAllWindows()
